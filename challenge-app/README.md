@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 🩺 Kolorektal Kanser Takip ve Bilgilendirme Sistemi
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu mobil uygulama, **Kırıkkale Üniversitesi Yazılım Mühendisliği** bünyesinde düzenlenen 2 saatlik "Challenge" kapsamında geliştirilmiştir. Kullanıcı dostu bir arayüz ile kanser hastalarının süreçlerini takip etmelerini ve bilgi almalarını hedefler.
 
-## Get started
+## 📱 Uygulama Önizlemesi & Test
+Uygulamayı anında test etmek için aşağıdaki QR kodu **Expo Go** uygulaması ile taratabilir veya proje linkine erişebilirsiniz.
 
-1. Install dependencies
+### 🔗 Expo Proje Linki
+[Expo Go Proje Bağlantısı (Buraya Expo Linkini Yapıştır)](https://expo.dev/@suedaknl/challenge-app)
 
-   ```bash
-   npm install
-   ```
+### 📸 QR Kod
+![Expo QR Code](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=exp://u.expo.dev/YOUR_EXPO_PROJECT_ID) 
+*(Not: Kendi QR kodunu buraya ekleyebilirsin veya sadece Expo linkini bırakabilirsin.)*
 
-2. Start the app
+## 🛠 Teknik Mimari
+Uygulama, modern mobil geliştirme standartlarına uygun olarak inşa edilmiştir:
+- **Framework:** React Native (Expo)
+- **Navigasyon:** React Navigation Stack (Profesyonel sayfa yönetimi)
+- **Tasarım:** StyleSheet ile Responsive UI (Görsel Mood Board'a %100 uyum)
+- **Dil:** JavaScript (ES6+)
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Özellikler
+- **Kapsamlı Dashboard:** 9 farklı modül içeren (Belirti Yönetimi, Kan Tahlili, Öneriler vb.) renkli ızgara menü.
+- **Uzmana Sor:** Yazılı ve sesli iletişim seçenekleri sunan interaktif ekranlar.
+- **Kanser Bilgilendirme:** Covid-19 ve Kolorektal kanser hakkında güncel bilgilendirme bannerları.
+- **Güvenli Giriş:** Kullanıcı doğrulama simülasyonu ve hata yönetimi.
 
-In the output, you'll find options to open the app in a
+## 🚀 Kurulum ve Çalıştırma
+Projenin kaynak kodlarını yerelinizde çalıştırmak için:
+1. `git clone https://github.com/suedaknl/Challenge.git`
+2. `npm install`
+3. `npx expo start`
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+**Geliştirici:** Süeda  
+*Yazılım Mühendisliği 2. Sınıf Öğrencisi*
