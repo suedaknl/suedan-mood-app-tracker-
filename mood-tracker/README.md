@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# 🚀 Mood Tracker & Baby Care Assistant
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, bir mobil uygulama geliştirme challenge'ı kapsamında, belirlenen bir "mood board" (Pano T2) üzerinden ilham alınarak 2 gün içerisinde geliştirilmiştir. Uygulama, ebeveynlerin bebeklerinin besleme rutinlerini takip etmelerine ve kendi duygu durumlarını (PANAS Testi dahil) kayıt altına almalarına yardımcı olur.
 
-## Get started
+## ✨ Öne Çıkan Özellikler
 
-1. Install dependencies
+- **Modern Navigasyon:** Expo Router kullanılarak dosya tabanlı, hızlı ve güvenli sayfa geçişleri sağlandı.
+- **T2 Tasarım Dili:** Proje; koyu yeşil, açık yeşil ve gri tonlarından oluşan "Doğa ve Huzur" temalı T2 panosuna sadık kalınarak tasarlandı.
+- **Dinamik Veri Akışı:** Besleme kayıtları ve günlük notları anlık olarak state yönetimi ile listelenmektedir.
+- **Gelişmiş Kullanıcı Deneyimi (UX):** - Besleme ekranında metin girişi yerine profesyonel **Slider (Kaydırma Çubuğu)** yapısı kullanıldı.
+  - Kayıt ekleme işlemleri şık bir **Modal (Açılır Pencere)** üzerinden gerçekleştirilmektedir.
+  - Liste boş olduğunda kullanıcıyı yönlendiren "Empty State" mesajları eklendi.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Kullanılan Teknolojiler
 
-2. Start the app
+- **Framework:** React Native + Expo (SDK 50+)
+- **Navigation:** Expo Router
+- **UI Components:** React Native Community Slider
+- **Language:** JavaScript / TypeScript
+- **Version Control:** Git & GitHub
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Proje Yapısı
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+/app             # Tüm ekranlar ve yönlendirme mantığı (Index, Mood, Feeding, Panas, Diary)
+/assets          # Uygulama içi görseller ve ikonlar
+/components      # Tekrar kullanılabilir arayüz bileşenleri
