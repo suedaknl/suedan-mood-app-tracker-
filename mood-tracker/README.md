@@ -1,6 +1,6 @@
 # 🚀 Mood Tracker & Baby Care Assistant
 
-Bu proje, bir mobil uygulama geliştirme challenge'ı kapsamında, belirlenen bir "mood board" (Pano T2) üzerinden ilham alınarak 2 gün içerisinde geliştirilmiştir. Uygulama, ebeveynlerin bebeklerinin besleme rutinlerini takip etmelerine ve kendi duygu durumlarını (PANAS Testi dahil) kayıt altına almalarına yardımcı olur.
+Bu proje, bir mobil uygulama geliştirme challenge'ı kapsamında, belirlenen bir "mood board" (Pano T2) üzerinden ilham alınarak geliştirilmiştir. Uygulama, ebeveynlerin bebeklerinin besleme rutinlerini takip etmelerine ve kendi duygu durumlarını (PANAS Testi dahil) kayıt altına almalarına yardımcı olur.
 
 ## ✨ Öne Çıkan Özellikler
 
