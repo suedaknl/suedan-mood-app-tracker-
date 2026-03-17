@@ -38,7 +38,7 @@ Uygulamanın emülatör üzerindeki çalışma performansını ve özelliklerini
 👉 45 Saniyelik Tanıtım Videosunu İzle
 
 📱 APK İndir (v1.0.0)
-GitHub dosya boyutu sınırları nedeniyle, derlenmiş APK dosyasına "Releases" sekmesinden veya aşağıdaki direkt bağlantıdan ulaşabilirsiniz:
+GitHub dosya boyutu sınırları nedeniyle, derlenmiş APK dosyasına "Releases" sekmesinden veya aşağıdaki direkt bağlantıdan ulaşabilirsiniz: https://github.com/suedaknl/suedan-mood-app-tracker-/releases/download/v1.0/app-debug.apk
 
 👉 MoodTracker_Sueda.apk İndir
 
